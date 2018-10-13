@@ -1,6 +1,14 @@
+drop items and...
+create weapon upgrade mechanic
+
+create enemies
+add turning time to the player
+	- 
+allow for player to have different types of legs
+	- need to add more legs
+
+
+DONE
+
 finish weapons & bullets
 add weapons to player
-create enemies
-create scrap mechanic
-add turning time to the player
-allow for player to have different types of legs

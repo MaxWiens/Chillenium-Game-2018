@@ -1,1 +1,1 @@
-draw_sprite_ext(sprite_index, sprite_data, x+x_offset, y+y_offset, image_xscale,image_yscale,degree_towards_target,c_white,1);
+draw_sprite_ext(sprite_index, sprite_data, x+x_offset, y+y_offset, -image_xscale,image_yscale,degree_towards_target,c_white,1);

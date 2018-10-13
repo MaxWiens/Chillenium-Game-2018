@@ -1,7 +1,7 @@
 //Cursor following
-if ((room > 0) && instance_exists(Player)) {
-	x = Player.x + (-Player.x + mouse_x)/2
-	y = Player.y - (Player.y - mouse_y)/2
+if ((room > 0) && instance_exists(player)) {
+	x = player.x + (mouse_x - player.x)/3
+	y = player.y - (player.y - mouse_y)/3
 }
 	
 
