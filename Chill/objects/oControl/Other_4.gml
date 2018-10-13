@@ -1,2 +1,1 @@
-if room=1 { Player = instance_create_depth(30,30,depth,oPlayer); 
-	instance_create_depth(Player.x,Player.y,-5,oCameraFollow); } 
+if ( room > 0 ) {Player = instance_create_depth(50,50,0,oPlayer) };

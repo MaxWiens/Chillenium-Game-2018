@@ -35,7 +35,7 @@
             "m_owner": "17fe7c3d-ed75-407b-af0a-37a7d3a55a46"
         },
         {
-            "id": "fbfc22ad-c9a1-4743-b324-9eb894a4ee4e",
+            "id": "8be4ca60-0cda-4858-a4b2-c268c44025c5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -63,6 +63,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "a8ed8da2-fcdf-4f0a-95ad-1199cad790a2",
     "visible": false
 }
