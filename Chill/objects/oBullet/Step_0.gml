@@ -5,3 +5,4 @@ time_until_decay -= delta_t;
 
 if time_until_decay <= 0
 	instance_destroy();
+

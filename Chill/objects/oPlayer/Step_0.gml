@@ -6,6 +6,10 @@ var inverse_sqrt_2 = 0.7071067812;
 
 is_moving = false;
 
+if input & Input.Action {
+	fire_gun(weapon);
+}
+
 switch input & Input.Movement {
 	case Input.Up:
 		y-=sp * delta_t;
@@ -28,7 +32,6 @@ switch input & Input.Movement {
 		is_moving = true;
 		break;
 
-	
 	case Input.Up | Input.Right:
 		y-=sp * delta_t * inverse_sqrt_2;
 		x+=sp * delta_t * inverse_sqrt_2;
@@ -53,7 +56,6 @@ switch input & Input.Movement {
 		legs.facing = Direction.SW;
 		is_moving = true;
 		break;
-	
 }
 
 
@@ -83,6 +85,10 @@ else if degree_towards_mouse <= 180 and degree_towards_mouse >= 157
 
 legs.x = x;
 legs.y = y;
+weapon.x = x;
+weapon.y = y;
+weapon.degree_towards_target = degree_towards_mouse;
+
 legs.is_moving = is_moving;
 
 

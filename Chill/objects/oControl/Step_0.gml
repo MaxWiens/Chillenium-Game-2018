@@ -12,3 +12,6 @@ if keyboard_check(65) // A is pressed
 
 if keyboard_check(68) // D is pressed
 	input |= Input.Right;
+	
+if mouse_button == mb_left
+	input |= Input.Action;
