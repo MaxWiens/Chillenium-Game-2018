@@ -130,7 +130,7 @@
             "Key": "730557ca-01c2-4e91-a371-e63adb073e06",
             "Value": {
                 "id": "5f0042a1-9f3c-4559-96d4-c75faa3dea87",
-                "resourcePath": "tilesets\\tileset1\\tileset1.yy",
+                "resourcePath": "tilesets\\sprite_sheet\\sprite_sheet.yy",
                 "resourceType": "GMTileSet"
             }
         },
