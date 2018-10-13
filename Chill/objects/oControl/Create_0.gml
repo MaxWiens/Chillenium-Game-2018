@@ -1,5 +1,21 @@
 window_set_fullscreen(true);
 globalvar delta_t;
+enum Input {
+	None =		0x000,
+	
+	Up =		0x001,
+	Down =		0x002,
+	Left =		0x004,
+	Right =		0x008,
+	Movement =	0x00F,
+	
+	Action	=	0x010,
+}
+globalvar input;
+input = Input.None;
+globalvar input_old;
+input_old = Input.None;
+
 /*
 iw = 0
 ih=1080;

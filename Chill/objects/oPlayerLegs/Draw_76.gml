@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if is_moving {
-	animate = true;
+	animation_handler.animate = true;
 	switch facing {
 		case Direction.N:
 			sprite_data = 0x30;
@@ -28,8 +28,9 @@ if is_moving {
 			sprite_data = 0x40;
 			break;
 	}
+	
 }else{
-	animate = true;
+	animation_handler.animate = false;
 	switch facing {
 		case Direction.N:
 			sprite_data = 0x10

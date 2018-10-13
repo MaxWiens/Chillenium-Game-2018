@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "2bee92c7-5f08-492a-91bf-c31cfaf44469",
+            "Value": {
+                "id": "a3ef1ba0-b051-41af-8268-06061c94f1e0",
+                "resourcePath": "objects\\oAnimationHandler\\oAnimationHandler.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "32e019ee-3d9c-42b6-ad3d-4eed1ba39a1f",
             "Value": {
                 "id": "64c39f38-6da7-4395-bd75-c3cab204dec5",
