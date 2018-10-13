@@ -57,27 +57,27 @@ switch input & Input.Movement {
 }
 
 
-face_towards_mouse = darctan2((y+.5*height)-mouse_y, mouse_x-(x+.5*width));
+degree_towards_mouse = darctan2((y+.5*height)-mouse_y, mouse_x-(x+.5*width));
 
 
-if face_towards_mouse < 22 and face_towards_mouse >= -22
+if degree_towards_mouse < 22 and degree_towards_mouse >= -22
 	facing = Direction.E;
-else if face_towards_mouse < -22 and face_towards_mouse >= -67
+else if degree_towards_mouse < -22 and degree_towards_mouse >= -67
 	facing = Direction.SE;
-else if face_towards_mouse < -67 and face_towards_mouse >= -112 
+else if degree_towards_mouse < -67 and degree_towards_mouse >= -112 
 	facing = Direction.S;
-else if face_towards_mouse < -112 and face_towards_mouse >= -157
+else if degree_towards_mouse < -112 and degree_towards_mouse >= -157
 	facing = Direction.SW;
-else if face_towards_mouse < -157 and face_towards_mouse >= -180
+else if degree_towards_mouse < -157 and degree_towards_mouse >= -180
 	facing = Direction.W;
 
-if face_towards_mouse < 67 and face_towards_mouse >= 22
+if degree_towards_mouse < 67 and degree_towards_mouse >= 22
 	facing = Direction.NE;
-else if face_towards_mouse < 112 and face_towards_mouse >= 67
+else if degree_towards_mouse < 112 and degree_towards_mouse >= 67
 	facing = Direction.N;
-else if face_towards_mouse < 157 and face_towards_mouse >= 112
+else if degree_towards_mouse < 157 and degree_towards_mouse >= 112
 	facing = Direction.NW;
-else if face_towards_mouse <= 180 and face_towards_mouse >= 157
+else if degree_towards_mouse <= 180 and degree_towards_mouse >= 157
 	facing = Direction.W;
 
 

@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "3bc2d990-c6e6-408b-9714-f10937a70c15",
+            "Value": {
+                "id": "8e9ae739-5b47-4278-8dd3-5ba76e0dd5ae",
+                "resourcePath": "notes\\TODO.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "3e3a49c6-fe62-4118-9ce2-ac9ca6b86764",
             "Value": {
                 "id": "8ea0ef1f-8fde-4014-a9b8-55c635e3f0c9",
@@ -143,11 +151,27 @@
             }
         },
         {
+            "Key": "784f0be7-1dad-446c-bfb8-c696b5b54e64",
+            "Value": {
+                "id": "7ff1d9e0-0d86-44e7-967a-e18b8f87d6ce",
+                "resourcePath": "objects\\oWeapon\\oWeapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7bb90aee-59c0-4714-873d-0a6642fb75ec",
             "Value": {
                 "id": "d60399cf-e8e0-435c-84ee-0ed8d9da4353",
                 "resourcePath": "tilesets\\tileset0\\tileset0.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "7c6483c8-da6e-492d-9d66-17fd9b63c513",
+            "Value": {
+                "id": "4ba4d333-c71a-43fd-8c2c-d56b1cf69d43",
+                "resourcePath": "views\\7c6483c8-da6e-492d-9d66-17fd9b63c513.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -167,6 +191,22 @@
             }
         },
         {
+            "Key": "7fe7257a-217d-476b-b1f7-fb056eed72b4",
+            "Value": {
+                "id": "4953966d-7af5-453f-9eb6-319b817c1129",
+                "resourcePath": "sprites\\sSword\\sSword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8bb72365-29d3-43c4-8010-8b5698c070c2",
+            "Value": {
+                "id": "be388128-1f69-4a88-a6a7-33e2eb524ce7",
+                "resourcePath": "objects\\oBullet\\oBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8d12d5d8-1d11-4fff-9754-31bd9ce52909",
             "Value": {
                 "id": "29080d23-8e05-4d7a-89a3-26887aefcaf7",
@@ -180,6 +220,14 @@
                 "id": "7cabf135-ae8b-40e8-91d4-afa013b53771",
                 "resourcePath": "views\\8d852729-e5be-4eb7-9535-10245d08e4a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9afdf1c8-efa3-4c12-8b9c-ad2e210f203b",
+            "Value": {
+                "id": "684b3217-385b-4acb-b649-16ca2625b084",
+                "resourcePath": "sprites\\sCannon\\sCannon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -239,11 +287,27 @@
             }
         },
         {
+            "Key": "cc410a74-0f25-4bcb-baca-8f5ecad9910f",
+            "Value": {
+                "id": "fcf8ad67-6ecc-4256-b994-90fbe242dc35",
+                "resourcePath": "sprites\\sRailgun\\sRailgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "33be6672-bfc9-44d1-9ab9-18a36255ee68",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd120a01-47fa-4b15-83dc-b7ca1c51b795",
+            "Value": {
+                "id": "25f7bc31-6c9b-470c-84b2-991673a45a37",
+                "resourcePath": "views\\cd120a01-47fa-4b15-83dc-b7ca1c51b795.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -255,11 +319,27 @@
             }
         },
         {
+            "Key": "e6488a8f-23a1-4274-84e1-7160f63323f2",
+            "Value": {
+                "id": "520deb21-6315-498f-8f86-ab6c10e580df",
+                "resourcePath": "sprites\\sTaser\\sTaser.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "1a4cfa89-d45b-4e4b-a0de-4a791715a8a0",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f5d65b7e-d27a-4477-9e50-27ec47b1a4be",
+            "Value": {
+                "id": "64615cfb-7fe7-400c-98d6-0dc6cc854189",
+                "resourcePath": "views\\f5d65b7e-d27a-4477-9e50-27ec47b1a4be.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
