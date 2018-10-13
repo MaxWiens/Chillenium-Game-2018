@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "5558c913-9dec-48ea-9184-281af59fb6ed",
+            "Value": {
+                "id": "660bac57-97c9-431f-9523-0f219385733d",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5ed3f522-c74d-487b-9c8f-b887a446042f",
             "Value": {
                 "id": "f06e4d62-c972-49da-bd26-892d0a4bcd10",
@@ -404,6 +412,14 @@
                 "id": "520deb21-6315-498f-8f86-ab6c10e580df",
                 "resourcePath": "sprites\\sTaser\\sTaser.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ecce9fee-29bc-46e2-8c75-433314f1fe8a",
+            "Value": {
+                "id": "7344ecc3-3412-4a59-af5a-2d4a5363ff82",
+                "resourcePath": "objects\\oGame\\oGame.yy",
+                "resourceType": "GMObject"
             }
         },
         {

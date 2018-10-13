@@ -1,6 +1,7 @@
 window_set_cursor(cr_none);
 //cursor_sprite = sCrosshair
-instance_create_depth(x,y,-5,oCursor);
+
+instance_create_depth(x,y,-5,oCursor)
 
 window_set_fullscreen(true);
 

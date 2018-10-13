@@ -1,19 +1,10 @@
 {
-    "id": "b58360ef-3270-4826-9123-5aa49f352597",
+    "id": "ecce9fee-29bc-46e2-8c75-433314f1fe8a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oCursor",
+    "name": "oGame",
     "eventList": [
-        {
-            "id": "4afd38d5-6639-4f22-b920-391ab3041938",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 73,
-            "eventtype": 8,
-            "m_owner": "b58360ef-3270-4826-9123-5aa49f352597"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
