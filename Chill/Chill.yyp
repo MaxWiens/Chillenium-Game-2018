@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "689bbd2f-6bd6-4de1-8982-c0346f6bc8f0",
+            "Value": {
+                "id": "66eb9c89-9c90-4977-8b27-a0f9b8d1571e",
+                "resourcePath": "views\\689bbd2f-6bd6-4de1-8982-c0346f6bc8f0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7122faa1-5339-43cc-a058-ba68c2ea80ef",
             "Value": {
                 "id": "60d4aa45-6c38-4718-80ce-5e3144514de8",
@@ -271,10 +279,26 @@
             }
         },
         {
+            "Key": "af2c00d9-8837-4aca-b474-5614631acbcb",
+            "Value": {
+                "id": "2a75d274-beb4-4495-9455-e8f44154745c",
+                "resourcePath": "objects\\oBigBullet\\oBigBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b645a06f-b772-46d8-8719-3449617f2f3c",
             "Value": {
                 "id": "0c48c191-19ea-43df-984c-c3c6bfa0179c",
                 "resourcePath": "objects\\oPlayer\\oPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b700d5c8-336c-4d5b-b33b-c28db9052e75",
+            "Value": {
+                "id": "42b514e6-faa9-4173-9e74-514e6e4c9272",
+                "resourcePath": "objects\\oCannon\\oCannon.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -316,6 +340,22 @@
                 "id": "3e458c0c-1a52-4a8f-a822-9d3784d8c336",
                 "resourcePath": "rooms\\r1\\r1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "dad74cc0-e543-4536-87e9-e5448ad36ae4",
+            "Value": {
+                "id": "e27cd2ef-c41a-48f6-9272-93524b7ae93b",
+                "resourcePath": "sprites\\sBigBullet\\sBigBullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "df0b4923-bbef-4def-962b-ddc460a23550",
+            "Value": {
+                "id": "035b185d-ba46-4f58-a3b1-b623a02d1828",
+                "resourcePath": "sprites\\sShell\\sShell.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
