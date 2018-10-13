@@ -20,3 +20,5 @@ sprite_data = 0x20;
 height = 16;
 width = 16;
 degree_towards_mouse= 0; // degree angle (from +x) toward mouse
+
+scrap = 0;

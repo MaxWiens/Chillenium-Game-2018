@@ -2,11 +2,11 @@
     "id": "12b7f862-ed72-4e9a-a25b-0c22982fc43b",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite0",
+    "name": "sTerrain",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 15,
+    "bbox_bottom": 47,
     "bbox_left": 0,
     "bbox_right": 47,
     "bbox_top": 0,
@@ -16,34 +16,34 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "11caf5d0-7265-4c3e-84e1-91456c87f2aa",
+            "id": "5ca7305d-b87e-44b6-ab5b-2911bd13600c",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "12b7f862-ed72-4e9a-a25b-0c22982fc43b",
             "compositeImage": {
-                "id": "af9430db-3566-48bd-8e97-37e93b4c639e",
+                "id": "c63bd7f8-12e7-4951-95ba-b3483561ea3c",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "11caf5d0-7265-4c3e-84e1-91456c87f2aa",
+                "FrameId": "5ca7305d-b87e-44b6-ab5b-2911bd13600c",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "73758c42-41a0-41d5-9ba6-e0e27ad9298e",
+                    "id": "bb273a65-a394-4b2a-a3ad-8200660f577d",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "11caf5d0-7265-4c3e-84e1-91456c87f2aa",
-                    "LayerId": "fc6e779e-0ee8-4e66-9c4c-8dd99b01e293"
+                    "FrameId": "5ca7305d-b87e-44b6-ab5b-2911bd13600c",
+                    "LayerId": "38f30bf6-3efe-4fed-b141-fc3b68b87d03"
                 }
             ]
         }
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 16,
+    "height": 48,
     "layers": [
         {
-            "id": "fc6e779e-0ee8-4e66-9c4c-8dd99b01e293",
+            "id": "38f30bf6-3efe-4fed-b141-fc3b68b87d03",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "12b7f862-ed72-4e9a-a25b-0c22982fc43b",

@@ -58,8 +58,16 @@
             "Key": "12b7f862-ed72-4e9a-a25b-0c22982fc43b",
             "Value": {
                 "id": "fd39bb0f-803a-4542-9b95-a3fa948d5207",
-                "resourcePath": "sprites\\sprite0\\sprite0.yy",
+                "resourcePath": "sprites\\sTerrain\\sTerrain.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "166e47f9-e02e-4e91-8fa5-d6a46510a3c7",
+            "Value": {
+                "id": "d3c82efc-79b6-42d8-947c-dbf5b909b3f3",
+                "resourcePath": "objects\\oScrap\\oScrap.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -287,6 +295,14 @@
             }
         },
         {
+            "Key": "b58360ef-3270-4826-9123-5aa49f352597",
+            "Value": {
+                "id": "6bb33be4-c508-463b-b026-05fd27fa8ce5",
+                "resourcePath": "objects\\oCursor\\oCursor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b645a06f-b772-46d8-8719-3449617f2f3c",
             "Value": {
                 "id": "0c48c191-19ea-43df-984c-c3c6bfa0179c",
@@ -300,6 +316,14 @@
                 "id": "42b514e6-faa9-4173-9e74-514e6e4c9272",
                 "resourcePath": "objects\\oCannon\\oCannon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ba824233-4ecd-49bc-9a63-e9416f9d24d1",
+            "Value": {
+                "id": "2ef5b556-6459-4c82-84c3-059fa85a4bd3",
+                "resourcePath": "sprites\\sCursor\\sCursor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -324,6 +348,14 @@
                 "id": "33be6672-bfc9-44d1-9ab9-18a36255ee68",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cca9ce00-b69e-4f6a-a1a2-8ad5624ae2c0",
+            "Value": {
+                "id": "53d722d7-0ddc-44f4-9d03-c2a623bbffa7",
+                "resourcePath": "sprites\\sScrap\\sScrap.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -355,6 +387,14 @@
             "Value": {
                 "id": "035b185d-ba46-4f58-a3b1-b623a02d1828",
                 "resourcePath": "sprites\\sShell\\sShell.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e18eee20-4866-4954-9bac-a2e68c4123a6",
+            "Value": {
+                "id": "c25ba0fc-db03-462b-a9c1-2b90b9b0798d",
+                "resourcePath": "sprites\\sShadow\\sShadow.yy",
                 "resourceType": "GMSprite"
             }
         },
