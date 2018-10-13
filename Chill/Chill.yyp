@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "166e47f9-e02e-4e91-8fa5-d6a46510a3c7",
-            "Value": {
-                "id": "d3c82efc-79b6-42d8-947c-dbf5b909b3f3",
-                "resourcePath": "objects\\oScrap\\oScrap.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "17fe7c3d-ed75-407b-af0a-37a7d3a55a46",
             "Value": {
                 "id": "afd6f8f1-5099-41c0-bfea-4dcd546b174e",
@@ -460,6 +452,22 @@
                 "id": "7344ecc3-3412-4a59-af5a-2d4a5363ff82",
                 "resourcePath": "objects\\oGame\\oGame.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ee881eea-b625-4a8c-9252-a4116b3e0aff",
+            "Value": {
+                "id": "39b89303-01ac-4fbe-8ca6-71af3d0bc2ba",
+                "resourcePath": "tilesets\\tsWalls\\tsWalls.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "f3b773f1-7fb1-4021-a1de-15f008189659",
+            "Value": {
+                "id": "97ca4906-cf52-4c38-8b49-a2b2f1631fff",
+                "resourcePath": "sprites\\sWalls\\sWalls.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
