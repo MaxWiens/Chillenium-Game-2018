@@ -9,9 +9,12 @@ enum Direction {
 	W,
 	NW
 }
-//var legDirection = Direction.N;
-//var bodDirection = Direction.N;
 
 x=30;
 y=60;
-sp = 3;
+sp = 30; // speed in pixels per second
+legs = instance_create_depth(x,y,depth,oPlayerLegs);
+facing = Direction.N;
+is_moving = false;
+sprite_data = 0x20;
+//instance_activate_object(legs);

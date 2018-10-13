@@ -1,5 +1,5 @@
 window_set_fullscreen(true);
-
+globalvar delta_t;
 /*
 iw = 0
 ih=1080;

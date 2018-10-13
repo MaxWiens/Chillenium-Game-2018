@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "bc19bc81-37b7-4901-8fa0-1183c40ff93c",
+            "Value": {
+                "id": "80093f77-c670-4696-8553-e41a93455591",
+                "resourcePath": "objects\\oPlayerLegs\\oPlayerLegs.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "33be6672-bfc9-44d1-9ab9-18a36255ee68",
