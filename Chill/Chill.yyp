@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "3350af42-5a51-443e-b06d-93451236dd9f",
+            "Value": {
+                "id": "a918ec95-317d-4958-9a41-3ad481b5da35",
+                "resourcePath": "sprites\\sArmor\\sArmor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3ac6c004-59ae-41e7-8aec-3818b42aee52",
             "Value": {
                 "id": "eb72eb37-76a3-4bbb-bb87-af7cb30b6967",

@@ -20,4 +20,4 @@ if keyboard_check_pressed(vk_escape) { game_end(); }
 
 //restart game
 
-if keyboard_check_pressed(vk_tab) { game_restart(); }
+if keyboard_check_pressed(ord("R")) {game_restart()}
