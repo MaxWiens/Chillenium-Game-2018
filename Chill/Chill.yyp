@@ -359,6 +359,22 @@
             }
         },
         {
+            "Key": "bc4d5acb-c0bb-401e-97f1-43040c048268",
+            "Value": {
+                "id": "fce2304f-cc9d-4fb1-a400-c93cba967306",
+                "resourcePath": "rooms\\r1\\r1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "bd579933-7407-4b85-bc51-17b377c7aff3",
+            "Value": {
+                "id": "0ecadfbe-7d19-4ad3-a9a8-853a8c51e643",
+                "resourcePath": "scripts\\give_weapon\\give_weapon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc410a74-0f25-4bcb-baca-8f5ecad9910f",
             "Value": {
                 "id": "fcf8ad67-6ecc-4256-b994-90fbe242dc35",
@@ -396,6 +412,14 @@
                 "id": "3e458c0c-1a52-4a8f-a822-9d3784d8c336",
                 "resourcePath": "rooms\\r1\\r1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "da28e3e6-ba56-4961-a575-92afccdc045e",
+            "Value": {
+                "id": "f62e1c47-d4c1-4b32-92c3-c282fcec8a95",
+                "resourcePath": "scripts\\drop_weapon\\drop_weapon.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -480,7 +504,9 @@
         }
     ],
     "script_order": [
-        "73381d67-c5b1-4148-ba36-473bdf460b41"
+        "73381d67-c5b1-4148-ba36-473bdf460b41",
+        "bd579933-7407-4b85-bc51-17b377c7aff3",
+        "da28e3e6-ba56-4961-a575-92afccdc045e"
     ],
     "tutorial": ""
 }

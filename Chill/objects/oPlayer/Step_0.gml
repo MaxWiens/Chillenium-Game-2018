@@ -6,9 +6,16 @@ var inverse_sqrt_2 = 0.7071067812;
 
 is_moving = false;
 
-if input & Input.Action {
-	fire_gun(weapon);
+if (input & Input.Action) && (weapon_R != noone){
+	fire_gun(weapon_R);
 }
+if (input & Input.Action2) && (weapon_L != noone){
+	fire_gun(weapon_L);
+}
+
+if input & Input.Dodge {
+}
+
 
 switch input & Input.Movement {
 	case Input.Up:
@@ -85,11 +92,23 @@ else if degree_towards_mouse <= 180 and degree_towards_mouse >= 157
 
 legs.x = x;
 legs.y = y;
-weapon.x = x;
-weapon.y = y;
-weapon.degree_towards_target = degree_towards_mouse;
-
 legs.is_moving = is_moving;
+
+if weapon_R != noone{
+	weapon_R.x = x;
+	weapon_R.y = y;
+	weapon_R.degree_towards_target = degree_towards_mouse;
+}
+
+if weapon_L != noone{
+	weapon_L.x = x;
+	weapon_L.y = y;
+	weapon_L.degree_towards_target = degree_towards_mouse;
+}
+
+
+
+
 
 
 

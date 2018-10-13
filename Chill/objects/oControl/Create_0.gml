@@ -16,11 +16,16 @@ enum Input {
 	Movement =	0x00F,
 	
 	Action	=	0x010,
+	Action2 =	0x020,
+	Dodge =		0x040,
+	
+	Activate =	0x080,
 }
 globalvar input;
 input = Input.None;
 globalvar input_old;
 input_old = Input.None;
+
 
 /*
 iw = 0

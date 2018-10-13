@@ -8,6 +8,12 @@ allow for player to have different types of legs
 	- need to add more legs
 
 
+
+MAKE ARROW SMALLER
+
+
+
+
 DONE
 
 finish weapons & bullets

@@ -12,6 +12,15 @@ if keyboard_check(65) // A is pressed
 
 if keyboard_check(68) // D is pressed
 	input |= Input.Right;
+
+if keyboard_check(vk_space)
+	input |= Input.Dodge; // space is pressed
 	
-if mouse_button == mb_left
+if keyboard_check(69)
+	input |= Input.Activate; // E is pressed
+
+if mouse_check_button(mb_left)
 	input |= Input.Action;
+
+if mouse_check_button(mb_right)
+	input |= Input.Action2;
