@@ -6,13 +6,13 @@ switch facing {
 		sprite_data = 0x24;
 		break;
 	case Direction.NE:
-		sprite_data = 0x21 | tile_mirror;
+		sprite_data = 0x23 | tile_mirror;
 		break;
 	case Direction.E:
 		sprite_data = 0x22 | tile_mirror;
 		break;
 	case Direction.SE:
-		sprite_data = 0x23 | tile_mirror;
+		sprite_data = 0x21 | tile_mirror;
 		break;
 	case Direction.S:
 		sprite_data = 0x20
