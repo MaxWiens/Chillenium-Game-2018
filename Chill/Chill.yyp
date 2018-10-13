@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "73381d67-c5b1-4148-ba36-473bdf460b41",
+            "Value": {
+                "id": "7091aa4d-60b6-4a79-aa05-873ddc757d37",
+                "resourcePath": "scripts\\fire_gun\\fire_gun.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "784f0be7-1dad-446c-bfb8-c696b5b54e64",
             "Value": {
                 "id": "7ff1d9e0-0d86-44e7-967a-e18b8f87d6ce",
@@ -464,7 +472,7 @@
         }
     ],
     "script_order": [
-        
+        "73381d67-c5b1-4148-ba36-473bdf460b41"
     ],
     "tutorial": ""
 }
