@@ -2,11 +2,11 @@
 if target != noone{
 	if weapon_L != noone{ 
 		weapon_L.degree_towards_target = degree_towards_target
-		fire_gun(weapon_L);
+		script_execute(weapon_L.fire_script, weapon_L);
 	}
 	if weapon_R != noone{
 		weapon_R.degree_towards_target = degree_towards_target
-		fire_gun(weapon_R);
+		script_execute(weapon_R.fire_script, weapon_R);
 	}
 	var x_dist = (target.x-x);
 	var y_dist = (y-target.y);

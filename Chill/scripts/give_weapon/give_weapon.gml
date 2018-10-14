@@ -7,6 +7,7 @@ weapon = argument1;
 if weapon_holder.weapon_R == noone {
 	weapon.x = weapon_holder.x;
 	weapon.y = weapon_holder.y;
+	weapon.holder = weapon_holder;
 	if weapon_holder.is_enemy
 		weapon.against_player = true;
 	else
@@ -24,6 +25,7 @@ if weapon_holder.weapon_R == noone {
 
 	weapon.rotmod = -180;
 	weapon.xscale = -1;
+	weapon.holder = weapon_holder;
 	weapon_holder.weapon_L = weapon;
 	weapon.dropped = false;
 } else if weapon_holder.weapon_R.object_index == weapon.object_index && weapon_holder.weapon_R.level < 4{

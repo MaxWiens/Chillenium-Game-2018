@@ -14,8 +14,12 @@ if ai.target == noone {
 	if player != noone
 		ai.target = player;
 }else{
-	x += ai.suggested_x*sp*delta_t;
-	y += ai.suggested_y*sp*delta_t;
+	var dx = ai.suggested_x*sp*delta_t + x;
+	var dy = ai.suggested_y*sp*delta_t + y;
+	if wall_check(dx, dy){
+		x = dx;
+		y = dy;
+	}
 }
 
 if ai.degree_towards_target < 22 and ai.degree_towards_target >= -22

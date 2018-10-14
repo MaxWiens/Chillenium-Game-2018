@@ -72,13 +72,18 @@ if input & Input.Dodge && (vx !=0 || vy != 0) && !is_dodging {
 	_dodge_timer = .5;	
 }
  if is_dodging{
-	x += _dodge_vx;
-	y += _dodge_vy;
+	if wall_check(_dodge_vx+x,_dodge_vy+y){
+		x += _dodge_vx;
+		y += _dodge_vy;
+	}
+	
 	_dodge_timer -= delta_t;
 	legs.animation_handler.animate = false;
 }else{
-	x += vx
-	y += vy
+	if wall_check(vx+x, vy+y){
+		x += vx
+		y += vy
+	}
 }
  if _dodge_timer <= 0 {
 	_dodge_timer = 0;
@@ -90,10 +95,6 @@ var winmody = 144/window_get_height()
 var winmodx = 255/window_get_width()
 degree_towards_mouse = darctan2((y+.5*height)-((window_mouse_get_y()/4)+camera_get_view_y(view_camera[0])), ((window_mouse_get_x()/4)+camera_get_view_x(view_camera[0]))-(x+.5*width));
 
-show_debug_message(camera_get_view_y(view_camera[0]));
-
-
-//show_debug_message(((y+.5*height)-(window_mouse_get_y()*.25))/2);
 
 if degree_towards_mouse < 22 and degree_towards_mouse >= -22
 	facing = Direction.E;
@@ -116,21 +117,21 @@ else if degree_towards_mouse <= 180 and degree_towards_mouse >= 157
 	facing = Direction.W;
 
 
-legs.x = x;
-legs.y = y;
+legs.x = x-width*.5;
+legs.y = y-height*.5;
 legs.is_moving = is_moving;
 
 if weapon_R != noone{
-	weapon_R.x = x;
-	weapon_R.y = y;
+	weapon_R.x = x-width*.5;
+	weapon_R.y = y-height*.5;
 	weapon_R.degree_towards_target = degree_towards_mouse;
 	weapon_Rsprite = weapon_R.sprite_index;
 
 }
 
 if weapon_L != noone{
-	weapon_L.x = x;
-	weapon_L.y = y;
+	weapon_L.x = x-width*.5;
+	weapon_L.y = y-height*.5;
 	weapon_L.degree_towards_target = degree_towards_mouse;
 	weapon_Lsprite = weapon_L.sprite_index;
 }

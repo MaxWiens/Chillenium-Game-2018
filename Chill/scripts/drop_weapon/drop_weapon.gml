@@ -10,10 +10,12 @@ if left {
 		weapon_holder.weapon_L.rotmod = 0;
 		weapon_holder.weapon_L.xscale = 1;
 		weapon_holder.weapon_L = noone;
+		weapon_holder.holder = noone;
 	}
 }else{
 	if weapon_holder.weapon_R != noone {
 		weapon_holder.weapon_R.dropped = true;
 		weapon_holder.weapon_R = noone;
+		weapon_holder.holder = noone;
 	}
 }

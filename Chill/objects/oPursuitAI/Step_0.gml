@@ -9,11 +9,11 @@ if target != noone{
 	// this will let the ai stay within 16 pixels of their effective range
 	if weapon_L != noone && range_comparison <= 0 { 
 		weapon_L.degree_towards_target = degree_towards_target
-		fire_gun(weapon_L);
+		script_execute(weapon_L.fire_script, weapon_L);
 	}
 	if weapon_R != noone && range_comparison <= 0{
 		weapon_R.degree_towards_target = degree_towards_target
-		fire_gun(weapon_R);
+		script_execute(weapon_R.fire_script, weapon_R);
 	}
 
 	degree_towards_target = darctan2(y_dist,x_dist);

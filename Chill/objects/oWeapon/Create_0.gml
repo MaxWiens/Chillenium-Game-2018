@@ -21,4 +21,8 @@ rotmod = 0;
 xscale = 1;
 
 level = 0;
-transformed_weapon = noone;
+mega_weapon = noone;
+
+fire_script = fire_gun;
+
+holder = noone;
