@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0f8ff4bb-713a-4949-89ce-1ec92dfd8108",
+            "Value": {
+                "id": "2343618a-4771-4302-b834-64324bfb2002",
+                "resourcePath": "rooms\\r2\\r2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "12b7f862-ed72-4e9a-a25b-0c22982fc43b",
             "Value": {
                 "id": "fd39bb0f-803a-4542-9b95-a3fa948d5207",
@@ -247,11 +255,27 @@
             }
         },
         {
+            "Key": "8d280329-af14-4b65-8815-360fc48bc9f1",
+            "Value": {
+                "id": "770bcd5a-ebaa-45d9-b7a2-7b80bdc0b793",
+                "resourcePath": "rooms\\room3\\room3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8d852729-e5be-4eb7-9535-10245d08e4a9",
             "Value": {
                 "id": "7cabf135-ae8b-40e8-91d4-afa013b53771",
                 "resourcePath": "views\\8d852729-e5be-4eb7-9535-10245d08e4a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "963bb59e-4333-45d3-b0e1-3c9798ed8f73",
+            "Value": {
+                "id": "4fb604d0-a8ea-4729-a6e7-809c5f473d78",
+                "resourcePath": "sprites\\sTrees\\sTrees.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -284,6 +308,14 @@
                 "id": "61978168-f5c5-4ffb-a2c6-9f0d5130c6fa",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa4fa3a3-4977-4b9d-8d83-cf27f4eaf3f3",
+            "Value": {
+                "id": "5cb6a661-6cf5-44c3-8c00-20c781f2a186",
+                "resourcePath": "objects\\oDec\\oDec.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -375,6 +407,14 @@
             }
         },
         {
+            "Key": "cb8d54fd-8edf-4960-bc1c-75b717b85802",
+            "Value": {
+                "id": "43195d0c-1506-4b43-ac64-f3d75e380d99",
+                "resourcePath": "sprites\\sHealth\\sHealth.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc410a74-0f25-4bcb-baca-8f5ecad9910f",
             "Value": {
                 "id": "fcf8ad67-6ecc-4256-b994-90fbe242dc35",
@@ -435,6 +475,14 @@
             "Value": {
                 "id": "035b185d-ba46-4f58-a3b1-b623a02d1828",
                 "resourcePath": "sprites\\sShell\\sShell.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e16b12b8-e2fe-4e24-8902-9cb9a854478a",
+            "Value": {
+                "id": "7ad182a6-4bf7-4777-ab62-51c44459641d",
+                "resourcePath": "sprites\\sTreeTech\\sTreeTech.yy",
                 "resourceType": "GMSprite"
             }
         },
