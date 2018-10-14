@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "06bf10bd-ee1f-41d5-b807-114f8e450454",
+            "Value": {
+                "id": "ad9fd16d-30f8-434c-bedb-527a3434a646",
+                "resourcePath": "objects\\oPursuitAI\\oPursuitAI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0f19b499-77ae-4875-87bf-092e016dbbd9",
             "Value": {
                 "id": "1b57b1ef-acae-4103-ae64-5d746afcd989",
@@ -124,6 +132,14 @@
                 "id": "8e9ae739-5b47-4278-8dd3-5ba76e0dd5ae",
                 "resourcePath": "notes\\TODO.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "3d5db22e-8c53-407e-a7e9-f0d3ce6bb58e",
+            "Value": {
+                "id": "f79908b9-056f-43e8-aa6e-2015fe16cc83",
+                "resourcePath": "objects\\oEye1\\oEye1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
