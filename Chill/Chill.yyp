@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "cb0b5b79-d771-4f81-9c0e-71482e66dcd9",
+            "Value": {
+                "id": "6ceea6ec-5576-4721-93d4-0e8298db32ee",
+                "resourcePath": "sprites\\sButton\\sButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc410a74-0f25-4bcb-baca-8f5ecad9910f",
             "Value": {
                 "id": "fcf8ad67-6ecc-4256-b994-90fbe242dc35",

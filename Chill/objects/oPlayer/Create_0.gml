@@ -20,3 +20,6 @@ width = 16;
 degree_towards_mouse= 0; // degree angle (from +x) toward mouse
 weapon_R = noone;
 weapon_L = noone;
+
+weapon_Rsprite = 0;
+weapon_Lsprite = 0;

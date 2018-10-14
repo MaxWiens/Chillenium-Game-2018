@@ -4,6 +4,7 @@ window_set_cursor(cr_none);
 instance_create_depth(x,y,-5,oCursor)
 
 window_set_fullscreen(true);
+globalvar player;
 
 globalvar delta_t;
 enum Input {

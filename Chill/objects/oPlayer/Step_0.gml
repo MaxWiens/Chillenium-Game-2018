@@ -1,8 +1,9 @@
 // inverse_sqrt_2 is 1/sqrt(2) which we multiply the speed
 // by so you move at the same rate diagnaly as if you
 // were moving sideways
-var inverse_sqrt_2 = 0.7071067812;
 
+
+var inverse_sqrt_2 = 0.7071067812;
 
 is_moving = false;
 
@@ -98,12 +99,15 @@ if weapon_R != noone{
 	weapon_R.x = x;
 	weapon_R.y = y;
 	weapon_R.degree_towards_target = degree_towards_mouse;
+	weapon_Rsprite = weapon_R.sprite_index;
+
 }
 
 if weapon_L != noone{
 	weapon_L.x = x;
 	weapon_L.y = y;
 	weapon_L.degree_towards_target = degree_towards_mouse;
+	weapon_Lsprite = weapon_L.sprite_index;
 }
 
 
