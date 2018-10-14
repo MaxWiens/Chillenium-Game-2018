@@ -9,6 +9,7 @@ enum BulletFlags {
 	Explosive = 0x010
 }
 
+against_player = true;
 sp_x = 0;				//speed of bullet in x direction in pixels per second
 sp_y = 0;				//speed of bullet in y direction in pixels per second
 time_until_decay = 0;   //time until the bullet decays in seconds

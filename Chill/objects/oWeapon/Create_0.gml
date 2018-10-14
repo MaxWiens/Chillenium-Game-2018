@@ -14,6 +14,11 @@ y_offset = 0;
 sprite_data = 0;
 bullet_speed = 1;
 bullet = pointer_null;
+against = true;
+gun_color = c_white;
 
 rotmod = 0;
 xscale = 1;
+
+level = 0;
+transformed_weapon = noone;

@@ -2,18 +2,18 @@
 /// @desc forces a player to drop a specific weapon
 /// @param {oPlayer} player 
 /// @param {real} left drops the left weapon if true, drops the right if false
-player = argument0;
+weapon_holder = argument0;
 left = argument1;
 if left {
-	if player.weapon_L != noone {
-		player.weapon_L.dropped = true;
-		player.weapon_L.rotmod = 0;
-		player.weapon_L.xscale = 1;
-		player.weapon_L = noone;
+	if weapon_holder.weapon_L != noone {
+		weapon_holder.weapon_L.dropped = true;
+		weapon_holder.weapon_L.rotmod = 0;
+		weapon_holder.weapon_L.xscale = 1;
+		weapon_holder.weapon_L = noone;
 	}
 }else{
-	if player.weapon_R != noone {
-		player.weapon_R.dropped = true;
-		player.weapon_R = noone;
+	if weapon_holder.weapon_R != noone {
+		weapon_holder.weapon_R.dropped = true;
+		weapon_holder.weapon_R = noone;
 	}
 }

@@ -1,19 +1,35 @@
 /// @func give_weapon(player, weapon)
 /// @desc gives a player a weapon in their free hand.
-/// @param player {oPlayer} player to give weapon to.
+/// @param weapon_holder {oPlayer} player to give weapon to.
 /// @param weapon {oWeapon} weapon to give.
-player = argument0;
+weapon_holder = argument0;
 weapon = argument1;
-if player.weapon_R == noone {
-	weapon.x = player.x;
-	weapon.y = player.y;
-	player.weapon_R = weapon;
+if weapon_holder.weapon_R == noone {
+	weapon.x = weapon_holder.x;
+	weapon.y = weapon_holder.y;
+	if weapon_holder.is_enemy
+		weapon.against_player = true;
+	else
+		weapon.against_player = false;
+
+	weapon_holder.weapon_R = weapon;
 	weapon.dropped = false;
-} else if player.weapon_L == noone {
-	weapon.x = player.x;
-	weapon.y = player.y;
+} else if weapon_holder.weapon_L == noone {
+	weapon.x = weapon_holder.x;
+	weapon.y = weapon_holder.y;
+	if weapon_holder.is_enemy
+		weapon.against_player = true;
+	else
+		weapon.against_player = false;
+
 	weapon.rotmod = -180;
 	weapon.xscale = -1;
-	player.weapon_L = weapon;
+	weapon_holder.weapon_L = weapon;
 	weapon.dropped = false;
+} else if weapon_holder.weapon_R.object_index == weapon.object_index && weapon_holder.weapon_R.level < 4{
+	weapon_holder.weapon_R.level += 1;
+	instance_destroy(weapon);
+} else if weapon_holder.weapon_L.object_index == weapon.object_index && weapon_holder.weapon_L.level < 4{
+	weapon_holder.weapon_L.level += 1;
+	instance_destroy(weapon);
 }

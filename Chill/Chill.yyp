@@ -263,6 +263,22 @@
             }
         },
         {
+            "Key": "a2c41a01-19bb-4d29-9432-fbbf033b5bb7",
+            "Value": {
+                "id": "cff16b5e-ab1d-4f25-96a9-d3930866236a",
+                "resourcePath": "objects\\oEye\\oEye.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a76a0baf-6bb3-410a-a637-3545b826b205",
+            "Value": {
+                "id": "5f455d3c-648f-4906-be3c-46c30dde6b49",
+                "resourcePath": "objects\\oStrafingAI\\oStrafingAI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a8aa79c9-0795-474a-a10c-04606c793031",
             "Value": {
                 "id": "05198b35-1e27-4c97-a75e-7fa846912713",
@@ -516,6 +532,14 @@
                 "id": "b589f720-7473-4764-a43e-d214215a4e17",
                 "resourcePath": "views\\fd3cf9fa-3af3-4cdb-aa9d-9d98e6295bd7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fdbea6c2-27f5-482d-a301-1131b716febd",
+            "Value": {
+                "id": "972d5a77-2e96-4f14-b114-75f119bb2977",
+                "resourcePath": "sprites\\sHitbox\\sHitbox.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
