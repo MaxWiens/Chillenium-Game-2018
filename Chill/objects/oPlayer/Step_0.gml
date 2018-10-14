@@ -4,6 +4,7 @@
 var inverse_sqrt_2 = 0.7071067812;
 
 
+
 is_moving = false;
 
 if (input & Input.Action) && (weapon_R != noone){
@@ -13,56 +14,79 @@ if (input & Input.Action2) && (weapon_L != noone){
 	fire_gun(weapon_L);
 }
 
-if input & Input.Dodge {
-}
 
 
+var vy = 0;
+var vx = 0;
 switch input & Input.Movement {
 	case Input.Up:
-		y-=sp * delta_t;
+		vy= -sp * delta_t;
 		legs.facing = Direction.N;
 		is_moving = true;
 		break;
 	case Input.Down:
-		y+=sp * delta_t;
+		vy= sp * delta_t;
 		legs.facing = Direction.S;
 		is_moving = true;
 		break;
 	case Input.Left:
-		x-=sp * delta_t;
+		vx= -sp * delta_t;
 		legs.facing = Direction.W;
 		is_moving = true;
 		break;
 	case Input.Right:
-		x+=sp * delta_t;
+		vx= sp * delta_t;
 		legs.facing = Direction.E;
 		is_moving = true;
 		break;
 
 	case Input.Up | Input.Right:
-		y-=sp * delta_t * inverse_sqrt_2;
-		x+=sp * delta_t * inverse_sqrt_2;
+		vy = -sp * delta_t * inverse_sqrt_2;
+		vx = sp * delta_t * inverse_sqrt_2;
 		legs.facing = Direction.NE;
 		is_moving = true;
 		break;
 	case Input.Up | Input.Left:
-		y-=sp * delta_t * inverse_sqrt_2;
-		x-=sp * delta_t * inverse_sqrt_2;
+		vy = -sp * delta_t * inverse_sqrt_2;
+		vx = -sp * delta_t * inverse_sqrt_2;
 		legs.facing = Direction.NW;
 		is_moving = true;
 		break;
 	case Input.Down | Input.Right:
-		y+=sp * delta_t * inverse_sqrt_2;
-		x+=sp * delta_t * inverse_sqrt_2;
+		vy = sp * delta_t * inverse_sqrt_2;
+		vx = sp * delta_t * inverse_sqrt_2;
 		legs.facing = Direction.SE;
 		is_moving = true;
 		break;
 	case Input.Down | Input.Left:
-		y+=sp * delta_t * inverse_sqrt_2;
-		x-=sp * delta_t * inverse_sqrt_2;
+		vy = sp * delta_t * inverse_sqrt_2;
+		vx = -sp * delta_t * inverse_sqrt_2;
 		legs.facing = Direction.SW;
 		is_moving = true;
 		break;
+}
+
+if input & Input.Dodge && (vx !=0 || vy != 0) && !is_dodging {
+	is_dodging = true;
+	_dodge_vx = vx*2;
+	_dodge_vy = vy*2;
+	_dodge_timer = .5;	
+}
+
+
+if is_dodging{
+	x += _dodge_vx;
+	y += _dodge_vy;
+	_dodge_timer -= delta_t;
+	legs.animation_handler.animate = false;
+}else{
+	x += vx
+	y += vy
+}
+
+if _dodge_timer <= 0 {
+	_dodge_timer = 0;
+	is_dodging = false;
 }
 
 

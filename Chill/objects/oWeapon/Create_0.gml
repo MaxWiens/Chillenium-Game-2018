@@ -14,6 +14,7 @@ y_offset = 0;
 sprite_data = 0;
 bullet_speed = 1;
 bullet = pointer_null;
+against_player = true;
 
 rotmod = 0;
 xscale = 1;

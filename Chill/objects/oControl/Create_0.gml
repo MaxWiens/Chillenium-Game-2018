@@ -21,6 +21,13 @@ enum Input {
 	
 	Activate =	0x080,
 }
+
+enum GameState {
+	Menu,
+	Action,
+	Equipment
+}
+
 globalvar input;
 input = Input.None;
 globalvar input_old;
