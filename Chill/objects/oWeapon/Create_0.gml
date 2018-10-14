@@ -22,7 +22,9 @@ xscale = 1;
 
 level = 0;
 mega_weapon = noone;
+sound = sndBoomshh;
 
 fire_script = fire_gun;
+
 
 holder = noone;

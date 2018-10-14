@@ -11,3 +11,4 @@ y_offset = 6;
 sprite_data = 0;
 bullet_speed = 32;
 bullet = oBigBullet;
+sound = sndBoomshh;

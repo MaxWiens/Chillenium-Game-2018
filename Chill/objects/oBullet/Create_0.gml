@@ -16,3 +16,4 @@ time_until_decay = 0;   //time until the bullet decays in seconds
 damage = 0;				//base damage the bullet deals
 
 flags = BulletFlags.None; 
+rotmod = 0;

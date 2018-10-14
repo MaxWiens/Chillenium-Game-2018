@@ -9,7 +9,7 @@ enum Direction {
 	W,
 	NW
 }
-mask_index = sBigBullet;
+//mask_index = sBigBullet;
 HP = 10;
 sp = 30; // speed in pixels per second
 legs = instance_create_depth(x,y,depth,oPlayerLegs); // legs of the player
