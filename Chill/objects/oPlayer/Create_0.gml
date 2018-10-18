@@ -11,7 +11,8 @@ enum Direction {
 }
 //mask_index = sBigBullet;
 HP = 10;
-sp = 30; // speed in pixels per second
+max_hp = 10;
+sp = 40; // speed in pixels per second
 legs = instance_create_depth(x,y,depth,oPlayerLegs); // legs of the player
 facing = Direction.N; // direction facing
 is_moving = false;

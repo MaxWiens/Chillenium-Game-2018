@@ -24,5 +24,7 @@ if mouse_check_button(mb_left)
 
 if mouse_check_button(mb_right)
 	input |= Input.Action2;
+	
+	if keyboard_check_pressed(ord("N")) {player.x=500; player.y=300; }
 
 

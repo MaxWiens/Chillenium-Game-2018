@@ -7,6 +7,18 @@ var inverse_sqrt_2 = 0.7071067812;
 
 is_moving = false;
 
+if HP < max_hp then HP += .01
+if (HP <2){
+	HP = 2;
+	audio_play_sound(sndExplosion,1,0);
+	instance_destroy(weapon_L)
+	instance_destroy(weapon_R)
+	depth = 1000
+	instance_deactivate_all(false);
+	instance_activate_object(control);
+	return;
+}
+
 if (input & Input.Action) && (weapon_R != noone){
 	fire_gun(weapon_R);
 }

@@ -9,7 +9,7 @@ if HP <= 0 {
 }
 
 if ai.target == noone {
-	move_random(2,2);
+	//move_random(2,2);
 	var player = collision_circle(x,y,ai.effective_range, oPlayer, false, true);
 	if player != noone
 		ai.target = player;
@@ -42,15 +42,15 @@ else if ai.degree_towards_target < 157 and ai.degree_towards_target >= 112
 else if ai.degree_towards_target <= 180 and ai.degree_towards_target >= 157
 	facing = Direction.W;
 
-ai.x = x;
-ai.y = y;
+ai.x = x-8;
+ai.y = y-8;
 if weapon_L != noone{
-	weapon_L.x = x
-	weapon_L.y = y
+	weapon_L.x = x-8	
+	weapon_L.y = y-8
 	ai.weapon_L = weapon_L
 }
 if weapon_R != noone{
-	weapon_R.x = x
-	weapon_R.y = y
+	weapon_R.x = x-8
+	weapon_R.y = y-8
 	ai.weapon_R = weapon_R
 }

@@ -1,1 +1,1 @@
-draw_tile(sprite_sheet, sprite_data, 0, x,y);
+draw_tile(sprite_sheet, sprite_data, 0, x-8,y-8);

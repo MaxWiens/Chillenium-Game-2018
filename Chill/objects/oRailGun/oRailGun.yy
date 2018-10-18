@@ -4,12 +4,21 @@
     "mvc": "1.0",
     "name": "oRailGun",
     "eventList": [
-        
+        {
+            "id": "53539aa3-091d-4d50-95be-6adf78b0bf35",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "fd9a89ee-be79-4583-82d5-9de22ecb18d8"
+        }
     ],
     "maskSpriteId": "c884de04-9332-4404-9762-75246a1f3dde",
     "overriddenProperties": null,
     "parentObjectId": "784f0be7-1dad-446c-bfb8-c696b5b54e64",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
